@@ -1,5 +1,7 @@
 #angular-spring-webpack-starter
 
+[![Build Status](https://travis-ci.org/Weizilla/angular-spring-webpack-starter.svg?branch=master)](https://travis-ci.org/Weizilla/angular-spring-webpack-starter)
+
 ## Description
 Starter for web application using the following technologies
 
