@@ -1,0 +1,1 @@
+mvn clean install && mvn -pl back-end-web-app spring-boot:run
