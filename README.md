@@ -1,6 +1,7 @@
 #angular-spring-webpack-starter
 
 [![Build Status](https://travis-ci.org/Weizilla/angular-spring-webpack-starter.svg?branch=master)](https://travis-ci.org/Weizilla/angular-spring-webpack-starter)
+[![Coverage Status](https://coveralls.io/repos/github/Weizilla/angular-spring-webpack-starter/badge.svg?branch=master)](https://coveralls.io/github/Weizilla/angular-spring-webpack-starter?branch=master)
 
 ## Description
 Starter for web application using the following technologies
