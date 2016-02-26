@@ -20,11 +20,5 @@ Starter for web application using the following technologies
 TBD
 
 ## To Do
-* angular
-* babel
-* pure css
-* font awesome
-* minimize js
 * dev vs prod mode for port
-* connection with spring boot via rest
 * spring error handling

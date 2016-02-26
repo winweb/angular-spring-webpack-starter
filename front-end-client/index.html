@@ -8,13 +8,15 @@
 Hello from webpack
 
 <div ng-controller="HelloController as ctrl">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" ng-model="ctrl.name">
-    <input type="submit" value="Say Name" ng-click="ctrl.sayHello()">
-
-    <div>
-        Response: {{ ctrl.response }}
-    </div>
+    <form class="pure-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" ng-model="ctrl.name">
+        <button class="pure-button pure-button-primary" type="submit" ng-click="ctrl.sayHello()">
+            <i class="fa fa-plus"></i> Say name <i class="fa fa-circle-o"></i></button>
+        <div>
+            Response: {{ ctrl.response }}
+        </div>
+    </form>
 </div>
 
 <script src="/bundle.js" charset="UTF-8"></script>
