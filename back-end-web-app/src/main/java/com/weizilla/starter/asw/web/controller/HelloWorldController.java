@@ -10,12 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.Instant;
 
 @RestController
-public class HelloWorld
+public class HelloWorldController
 {
+    protected static final String INDEX_STRING = "Hello Spring Boot with hot reload ";
+
     @RequestMapping("/api")
     public String index()
     {
-        return "Hello Spring Boot with hot reload " + Instant.now();
+        return INDEX_STRING + Instant.now();
     }
 
     @RequestMapping(path = "/api/hello", method = RequestMethod.POST)
