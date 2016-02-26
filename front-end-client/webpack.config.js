@@ -10,6 +10,7 @@ module.exports = {
     },
     module: {
         loaders: [
+            {test: path.join(__dirname, "app"), loader: "babel", query: {presets: ["es2015"]}},
             {test: /\.html$/, loader: "file?name=[name].[ext]"}
         ]
     }

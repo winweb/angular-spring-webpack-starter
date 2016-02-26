@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <title>Angular Spring Webpack Starter</title>
 </head>
-<body>
+<body ng-app="app">
 Hello from webpack
+
+<div ng-controller="HelloController as ctrl">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" ng-model="ctrl.name">
+    <input type="submit" value="Say Name" ng-click="ctrl.sayHello()">
+
+    <div>
+        Response: {{ ctrl.response }}
+    </div>
+</div>
+
+<script src="/bundle.js" charset="UTF-8"></script>
 </body>
+</html>

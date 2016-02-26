@@ -1,3 +1,6 @@
-require("../index.html");
+import "../index.html";
+import angular from "angular";
+import HelloController from "./hello.js";
 
-console.log("hello world webpack");
+angular.module("app", [])
+    .controller("HelloController", HelloController);
