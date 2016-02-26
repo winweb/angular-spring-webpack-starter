@@ -19,11 +19,11 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--<dependency>-->
-                <!--<groupId>${project.groupId}</groupId>-->
-                <!--<artifactId>front-end-client</artifactId>-->
-                <!--<version>${project.version}</version>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>front-end-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
@@ -39,7 +39,7 @@
     </dependencyManagement>
 
     <modules>
-        <!--<module>front-end-client</module>-->
+        <module>front-end-client</module>
         <module>back-end-web-app</module>
     </modules>
 

@@ -12,7 +12,7 @@ import java.time.Instant;
 @RestController
 public class HelloWorld
 {
-    @RequestMapping("/")
+    @RequestMapping("/api")
     public String index()
     {
         return "Hello Spring Boot with hot reload " + Instant.now();
