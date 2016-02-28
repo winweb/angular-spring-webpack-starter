@@ -1,1 +1,1 @@
-./webpack --progress --colors --watch
+./webpack --watch
