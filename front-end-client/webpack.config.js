@@ -1,11 +1,12 @@
 var path = require("path");
 var webpack = require("webpack");
-var output = "target/classes/static";
+var entry = path.resolve(__dirname, "app", "main.js");
+var output = path.resolve(__dirname, "target", "classes", "static");
 
 module.exports = {
-    entry: "./app/main.js",
+    entry: entry,
     output: {
-        path: path.join(__dirname, output),
+        path: output,
         filename: "bundle.js"
     },
     module: {
