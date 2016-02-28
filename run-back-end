@@ -1,1 +1,1 @@
-mvn -pl back-end-web-app spring-boot:run
+mvn -pl back-end-web-app spring-boot:run -Drun.profiles=dev
