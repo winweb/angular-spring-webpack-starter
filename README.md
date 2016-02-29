@@ -20,5 +20,4 @@ Starter for web application using the following technologies
 TBD
 
 ## To Do
-* dev vs prod mode for port
 * spring error handling
