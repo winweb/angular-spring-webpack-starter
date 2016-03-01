@@ -20,6 +20,8 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.EnvironmentPlugin(["API_HOST"])
+        new webpack.EnvironmentPlugin(["API_HOST"]),
+        // ignore locales for moment
+        new webpack.IgnorePlugin(/^\.\/locale$/, [/moment$/])
     ]
 };

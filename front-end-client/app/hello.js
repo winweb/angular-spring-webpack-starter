@@ -1,6 +1,5 @@
-function getHost() {
-    return process.env.API_HOST || "";
-}
+import getHost from "./host.js";
+import moment from "moment";
 
 class HelloController {
     constructor($http) {
@@ -17,6 +16,10 @@ class HelloController {
             console.log("data: " + r);
             self.response = r;
         })
+    }
+
+    currentTime() {
+        return moment();
     }
 }
 
